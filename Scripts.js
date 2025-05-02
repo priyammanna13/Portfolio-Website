@@ -54,9 +54,9 @@ document.querySelector('.contact-form').addEventListener('submit', function (e) 
 window.scrollTo(0, 0);
 
 // Hamburger menu toggle
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('nav-links');
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
 
-hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('show');
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
 });
